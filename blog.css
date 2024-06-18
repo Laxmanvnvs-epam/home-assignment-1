@@ -1,0 +1,32 @@
+.headingcontainer{
+    height: 70px;
+    width:100%;
+    background-color: rgb(3, 3, 82);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.headingcontent{
+    width: 250px;
+    height: 35px;
+    background-color: white;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.allnews{
+    display: inline;   
+    justify-content: center;
+    text-align: center;
+}
+.wwn{
+    display: flex;
+    text-align: center;
+    margin-top: 27px;
+    margin-left: -90px;
+}
+.newsblog{
+    margin-top: 8px;
+}
