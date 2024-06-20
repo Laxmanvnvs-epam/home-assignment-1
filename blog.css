@@ -76,6 +76,9 @@ body {
     width: 80px;
     border:0px
 }
+.menu{
+    display: none;
+}
 .mainsplit{
     border-top: 2px solid black;
 }
@@ -122,6 +125,11 @@ body {
     .subcribe {
         display: none;
     }
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media (max-width: 770px) {
     .blogs {
@@ -132,9 +140,7 @@ body {
     .all-news{
         margin-left: 33%;
     }
-    .category{
-        display: none;
-    }
+
     .blogimage{
         align-content: space-between;
     }
